@@ -1,0 +1,17 @@
+[
+    {
+        "name": "John Doe",
+        "job": "Web Designer",
+        "email": "johndoe@gmail.com"
+    },
+    {
+        "name": "Max Sanford",
+        "job": "Web Developer",
+        "email": "sanford@gmail.com"
+    },
+    {
+        "name": "Emily Wells",
+        "job": "Database Administrator",
+        "email": "wells@gmail.com"
+    }
+]

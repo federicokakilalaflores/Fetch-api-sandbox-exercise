@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Sandbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-wrapper">
+        <h1>Fetch API Sandbox</h1>
+        <button id="textBtn" class="btn btn-dark">Get Text</button>
+        <button id="jsonBtn" class="btn btn-dark">Get JSON</button>
+        <button id="apiBtn" class="btn btn-dark">Get API</button>
+        <hr>
+        <div id="output"></div>
+        <h3>Create Form:</h3>
+        <form id="postForm">
+            <input type="text" name="title" id="title" placeholder="Enter post title">
+            <textarea name="body" rows="3" id="body" placeholder="Enter post content"></textarea>
+            <button type="submit">Save Post</button>
+        </form>
+    </div>
+  
+    <script src="index.js"></script>
+</body>
+</html>
